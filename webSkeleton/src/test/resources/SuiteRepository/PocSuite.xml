@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="POCSuite" preserve-order="true" >
+
+	<test name="Login Validation">
+		<classes>
+			<class name="inValidLogin.TC_Login" />
+		</classes>
+	</test>
+	
+	<test name="completeEndToEnd">
+		<classes>
+			<class name="end2end.TC_EndToEnd" />
+		</classes>
+	</test> 
+</suite>
